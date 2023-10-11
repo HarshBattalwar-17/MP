@@ -1,0 +1,99 @@
+html {
+	justify-items: right;
+	height: 100%;
+	width: auto;
+	background-color: hsla(200,40%,30%,.4);
+}
+      
+.register {
+	color: white;
+	text-align: center;
+}
+
+.register a {
+	color: rgb(74, 146, 235);
+}
+.login{
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 18px;
+  }
+
+.box {
+	height: 100px;
+}
+
+.register a:link {
+	text-decoration: none;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 15px 18px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	color:whitesmoke;
+	justify-items: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	width: 100%;
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 15px 18px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	backdrop-filter: blur(16px) saturate(180%);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(11, 15, 13, 0.582);
+	border-radius: 12px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+.b {
+	display:flex;
+}
+ 
+.btn{
+	background: #000;
+	border-radius: 6px;
+	padding: 9px 25px;
+	text-decoration: none;
+	transition: 0.5s;
+	font-size: 18px;
+  }
+
+button {
+	background-color: #030804;
+	color: white;
+	padding: 14px 20px;
+	border-radius: 5px;
+	margin: 7px 0;
+	width: 100%;
+	font-size: 18px;
+}
+
+button:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
