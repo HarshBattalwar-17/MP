@@ -3,28 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Search</title>
+    <title>Allothub</title>
     <link rel="stylesheet" href="../css/Courses.css">
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <div class="logo">
-                <a href="#">Allot<span>Hub</span></a>
-            </div>
-            <ul>
-                <li><a href="../Index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="">Courses</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="buttons">
-                <a href="Login.html" class="login">Log in</a>
-            </div>
-        </nav>
-    <div class="container1">
-        <div class="filters">
-            <h2>Search Filters</h2>
+    <div class="header-bar">
+        <div class="logo">allothub</div>
+        <div class="login-buttons">
+            <a href="#" class="login-button">Login</a>
+            <a href="#" class="login-button">Sign Up</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="filter">
+            <h2 style="color: white";>Search Filters</h2>
             
             <!-- Filter 1: Stream -->
             <div class="collapsible">
@@ -132,8 +124,8 @@
                 </div>
             </div>
         </div>
-        
         <div class="results">
+            <!-- Place your course results here (fetched from the database) -->
             <h2>Course Results</h2>
             <div class="course-box">
                 <h3>Bachelor of Technology [B.Tech] (Computer Science and Engineering)</h3>
@@ -169,6 +161,9 @@
                 <p>Duration: 4 years</p>
             </div>
         </div>
+        <!-- <div class="results">
+            
+        </div> -->
         <div class="clearfix"></div>
     </div>
     <script>
