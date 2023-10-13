@@ -7,20 +7,22 @@
 		<title>AllotHuB</title>
 	</head>
 	<body>
-		<form>
+		<form method="POST" action="../php/register.php">
 			<div class="container">
 				<h1>Register</h1>
 				<p>Kindly fill in this form to register.</p>
-				<label for="username"><b>Username</b></label>
+				<label for="username"><b>Username:</b></label>
 				<input type="text" placeholder="Enter username" name="username" id="username" required/>
-				<label for="email"><b>Email</b></label>
-					<input type="text" placeholder="Enter Email" name="email" id="email" required/>
-					<label for="pwd"><b>Password</b></label>
-					<input type="password" placeholder="Enter Password" name="pwd" id="pwd" required/>
-					<label for="pwd-repeat"><b>Repeat Password</b></label>
-					<input type="password" placeholder="Repeat Password" name="pwd-repeat" id="pwd-repeat" required/>
-					<a href="Login.html">Register</a>
-					<p>Already have an account? <a href="Login.html">Log in</a>.</p>
+				<label for="email"><b>Email:</b></label>
+				<input type="text" placeholder="Enter Email" name="email" id="email" required/>
+				<label for="phone"><b>Phone No.:</b></label>
+				<input type="number" placeholder="Enter Phone No." name="phone" id="phone" required/>
+				<label for="password"><b>Password"</b></label>
+				<input type="password" placeholder="Enter Password" name="password" id="password" required/>
+				<label for="passre"><b>Re-enter Password:</b></label>
+				<input type="password" placeholder="Re-enter Password" name="passre" id="passre" required/>
+				<input type="submit" class="btn" name="submit" value="Register" required>
+				<p>Already have an account? <a href="Login.html">Log in</a>.</p>
 			</div>
 		</form>
 	</body>
